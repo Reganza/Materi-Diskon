@@ -10,3 +10,5 @@ Route::get('/', function () {
 
 Route::resource('barang', barangController::class);
 Route::resource('transaksi', transaksiController::class)->only(['index', 'create', 'store', 'destroy', 'edit', 'update']);
+
+//fefffff
